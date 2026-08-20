@@ -1,0 +1,14 @@
+衡枢 Hengshu 测试分发声明
+==========================
+
+本公开仓库提供测试签名构建、验证说明和完整性校验值，用于获得授权的本地使用、验证和评估。它不是 Microsoft Store 发布物，也不附带商业代码签名。除项目权利人另行书面授予的权利外，本仓库和发布包不自动授予对衡枢源码、品牌、服务或第三方内容的再许可权。
+
+本包按现状提供。使用者应仅在自己拥有或获授权管理的 Windows、Codex 配置、项目、案件和安全测试环境中操作，并自行遵守适用法律、平台条款和第三方许可。
+
+第三方组件
+----------
+分享包包含 Microsoft Windows App Runtime 2.x 的 x64 官方依赖包，发布者为 Microsoft Corporation。该组件继续受 Microsoft 的许可条款约束：
+https://github.com/microsoft/WindowsAppSDK/blob/main/LICENSE
+
+随包的 Microsoft 运行库签名、身份、版本与 SHA-256 记录在分享包内的 release-manifest.json 和 SHA256SUMS.txt 中。衡枢的测试证书仅用于验证本测试构建，不代表 Microsoft 对衡枢的认可或签名。
+
